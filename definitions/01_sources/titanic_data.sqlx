@@ -1,0 +1,7 @@
+config {
+    type: "declaration",
+    database: `ecommerce---elevate-toolbox`,
+    schema: "titanic",
+    name: "titanic_data",
+    description: "init titanc data"
+}

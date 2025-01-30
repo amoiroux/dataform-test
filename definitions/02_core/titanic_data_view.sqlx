@@ -1,0 +1,9 @@
+config {
+    type: "view",
+    description: "view to work"
+}
+
+SELECT
+    *
+FROM
+    ${ref("titanic_data")}
