@@ -4,6 +4,14 @@ config {
 }
 
 SELECT
-    *
+    PassengerId,
+    Survived, 
+    Pclass, 
+    Name,
+    Sex, 
+    Age, 
+    Ticket,
+    Fare as Price,
+    Embarked
 FROM
     ${ref("titanic_data")}
