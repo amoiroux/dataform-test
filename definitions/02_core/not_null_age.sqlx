@@ -1,0 +1,5 @@
+config {
+    type: "table",
+    description: "get age is not null",
+}
+SELECT * FROM ${ref("titanic_data_view")} WHERE age is not null
